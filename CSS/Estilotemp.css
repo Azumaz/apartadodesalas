@@ -1,0 +1,185 @@
+@font-face {
+    font-family: ITCJ;
+    src: url("../Fonts/Moon2.0-Bold.otf") format("opentype");
+}
+
+.principal{
+	position: absolute;
+	color: white;
+	font-size: 34px;
+	text-align: center;
+	background-color: #000;
+	top:0px;
+	left:200px;
+	right:200px;
+	font-family: ITCJ, sans-serif;
+}
+
+body{
+	background-color:  #f2f2f2;
+}
+
+
+
+
+
+div.itcj{
+	top:0px;
+	left:0px;
+}
+.logo{
+	position:absolute;
+	top:0px;
+	right:0px;
+	float:right;
+	clear:both;
+	z-index:5;
+	margin:0 auto;
+}
+div.container{
+	display:block;
+	top:30px;
+	position:relative;
+	margin:0 auto;
+	height:40%;
+	width:80%;
+}
+.carousel-inner { 
+	text-align: center;	
+	
+}
+.carousel .item > img { 
+	display: inline-block; 
+	width:63%;
+}
+
+form.sala{
+	position:relative;
+	width:320px;
+	height:240px;
+	float:left;
+	left:25%;
+}
+
+div.salas{
+	position:relative;
+	width:25%;
+	height:25%;
+}
+
+h1{
+	text-align:center;
+}
+
+.datosUsuario input,textarea{
+	position:absolute;
+	left:40%;
+	border-color:#284777;
+	padding: .2em;
+	border-radius:15px;
+	text-align:center;
+	border: 2px solid #284777;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:valid {
+  border: 2px solid #284777;
+}
+
+.datosUsuario label{
+	position:absolute;
+	left:35%;
+	padding: .2em;
+	border: 1px solid black;
+	width:12%;
+	background-color:#284777;
+	color:white;
+	border-radius:25px;
+	z-index:1;
+}
+
+#botonAbajo{
+	bottom:1%; 
+	position:absolute;
+	font-size:20px;
+}
+.informacion{
+	text-align:justify;
+	font-size:26px;
+	margin:100px;
+}
+.logotipo{
+	position:absolute;
+	width:50%;
+	height:25%;
+	text-align:center;
+	left:25%;
+	z-index:-1;
+	bottom:1%;
+}
+
+.consulta{
+	margin:10%;
+	text-align:center;
+}
+
+input {
+  padding: .2em;
+}
+
+
+.seleccion input {
+  display: none;
+}
+
+.seleccion img {
+  width: 180px;
+  border: 10px solid transparent;
+}
+
+.seleccion input {
+  display: none;
+}
+
+.seleccion input:checked  + img {
+  border-color: red;
+  border-radius:25px;
+}
+
+.seleccionSala img{
+  width: 400px; //400
+  height:350px; //430
+  border: 10px solid transparent;
+}
+
+.seleccionSala input {
+  display: none;
+}
+
+
+.seleccionSala input:checked  + img {
+  border-color: red;
+  border-radius:25px;
+  
+  border: 15px solid red;
+}
+.datosUsuario label{
+	padding-left:15px;
+}
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+
+

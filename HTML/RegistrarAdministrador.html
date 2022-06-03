@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="../PICTURES/logo2.png" />
+	<title>Registar Administrador - Apartado de salas</title>
+	<link rel="stylesheet" href="../CSS/Estilo.css" type="text/css">
+	<link rel="stylesheet" href="../CSS/EstiloAdministrador.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/4.0.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	
+	
+	
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+	
+</head>
+
+<body>
+<div class="itcj">
+		<img src="../PICTURES/LOGO TECNM azul.png" width="185" height="103" alt="tecNM">
+	</div>
+<div class="principal"  >
+	  Instituto Tecnológico de Ciudad Juárez <br/>
+      Apartado de salas
+      </div>
+	<div class="logo">
+		<img src="../PICTURES/logo1.png" alt="logo" width="180" height="95" style="float: right">
+	</div>
+	
+	
+	<div class="navbar">
+	
+	<a style="background-color:red;" href="../PHP/Logout.php">- Cerrar Sesión -</a>
+	  <a href="../PHP/MostrarUsoSalas.php">Uso de salas</a>
+	  <a href="../PHP/MostrarUsoRecursos.php">Uso recursos</a>
+	  <div class="dropdown">
+		<button class="dropbtn">Opciones Solicitud 
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="../PHP/MostrarSolicitudes.php">Mostrar solicitudes</a>
+		  <a href="../PHP/ModificarSolicitud.php">Modificar solicitudes</a>
+		</div>
+	  </div> 
+	  <div class="dropdown">
+		<button class="dropbtn">Opciones Administrador 
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+			<a href="../HTML/RegistrarAdministrador.html">Agregar Administrador</a>
+		  <a href="../PHP/MostrarAdministradores.php">Mostrar Administradores</a>
+		  <a href="../PHP/BorrarAdministrador.php">Borrar Administrador</a>
+		</div>
+	  </div> 
+	</div>
+	<br>
+	<br>
+	<br>
+<hr>
+ <header>
+ <h1>Registrar administrador:</h1>
+ </header> 
+
+ <form action="../PHP/RegistrarAdministrador.php" method="post"> 
+
+	 <hr />
+
+	 <label for="nombre">Nombre:</label><br>
+	 <input type="text" name="nombre" maxlength="32" required>
+	 <br/><br/>
+
+	 <label for="pass">Contraseña:</label><br>
+	 <input type="password" name="pass" maxlength="12" required>
+
+	 <br/><br/>
+	 <input type="submit" name="submit" value="Registrar">
+	 <input type="reset" name="clear" value="Restablecer">
+
+ </form>
+
+<hr /><br />
+
+ </body>
+</html>
